@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const ADMIN_API = "http://localhost:5000/api/admin";
+const ADMIN_API = "https://lms-project-5yly.onrender.com/api/admin";
 
 export const adminApi = createApi({
   reducerPath: "adminApi",
