@@ -22,7 +22,13 @@ const PORT = process.env.PORT || 5000;
 
 // CORS configuration
 const corsOptions = {
-  origin: ["http://localhost:3000", "http://localhost:5173"], // Add your frontend URL
+  origin: [
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "https://your-frontend-url.onrender.com", // 🔥 ADD THIS
+    "https://your-frontend-url.vercel.app"    // if using Vercel
+  ],
+   // Add your frontend URL
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
