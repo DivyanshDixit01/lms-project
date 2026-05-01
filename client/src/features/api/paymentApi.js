@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const PAYMENT_API = "http://localhost:5000/api/payments";
+const PAYMENT_API = "https://lms-project-5yly.onrender.com/api/payments";
 
 export const paymentApi = createApi({
   reducerPath: "paymentApi",
