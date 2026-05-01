@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const ANALYTICS_API = "http://localhost:5000/api/analytics";
+const ANALYTICS_API = "https://lms-project-5yly.onrender.com/api/analytics";
 
 export const analyticsApi = createApi({
   reducerPath: "analyticsApi",
