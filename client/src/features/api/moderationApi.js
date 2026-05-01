@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const MODERATION_API = "http://localhost:5000/api/moderation";
+const MODERATION_API = "https://lms-project-5yly.onrender.com/api/moderation";
 
 export const moderationApi = createApi({
   reducerPath: "moderationApi",
