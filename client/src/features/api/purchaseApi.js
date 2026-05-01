@@ -1,7 +1,7 @@
 // features/api/purchaseApi.js
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const BASE_URL = "http://localhost:5000/api/payment";
+const BASE_URL = "https://lms-project-5yly.onrender.com/api/payment";
 
 export const purchaseApi = createApi({
   reducerPath: "purchaseApi",
